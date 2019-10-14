@@ -45,7 +45,7 @@ function createTOC(){
 	    var anchor = this.id;
         
 	    toc += '<li><a href="#' + encodeURIComponent(anchor) + '">'
-		+ romanize(levels[openLevel].toString()) + '. ' + titleText
+		+ '. ' + titleText
 		+ '</a></li>';
         
 	});
